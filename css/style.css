@@ -1,4 +1,62 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*  GLOBALES */
+body{
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+h1{
+    font-size: 38px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 26px;
+}
+h5{
+    font-size: 22px;
+}
+h6{
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+}
+button,input[type=submit]{
+    border: none;
+    color: white;
+    background-color: #EC0813;
+    cursor: pointer;
+    display: block;
+}
+/* HEADER */
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 35px auto;
 }
