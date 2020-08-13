@@ -26,32 +26,35 @@ h1,h2,h3,h4,h5,h6,p{
     color: white;
 }
 h1{
-    font-size: 38px;
+    font-size: 40px;
 }
 h2{
-    font-size: 34px;
+    font-size: 36px;
 }
 h3{
-    font-size: 30px;
+    font-size: 32px;
 }
 h4{
-    font-size: 26px;
+    font-size: 28px;
 }
 h5{
-    font-size: 22px;
+    font-size: 24px;
 }
 h6{
     font-size: 18px;
 }
 p{
-    font-size: 14px;
+    font-size: 16px;
 }
 button,input[type=submit]{
     border: none;
     color: white;
     background-color: #EC0813;
     cursor: pointer;
-    display: block;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
 }
 /* HEADER */
 .encabezado{
@@ -59,4 +62,45 @@ button,input[type=submit]{
     justify-content: space-between;
     width: 90%;
     margin: 35px auto;
+}
+.encabezado button{
+    padding: 10px;
+}
+/* SECTION DESCRIPCION */
+.descripcion{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+/* TITULOS */
+.titulos h1, 
+.titulos h2{
+    text-align: center;
+}
+.titulos h1{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.titulos h2{
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 300;
+}
+/* FORMULARIO REGISTRO */
+.formulario input[type=email]{
+    width: 610px;
+    padding: 10px;
+}
+.formulario input[type=submit]{
+    width: 210px;
+    padding: 12.5px;
+    margin-left: -4px;
+    border-radius: 0px;
+}
+.caja-formulario p{
+    margin-top: 10px;
+    text-align: center;
 }
